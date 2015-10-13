@@ -1,0 +1,49 @@
+header {
+  overflow: hidden;
+}
+nav li {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+li {
+  line-height: 50px;
+  display: inline-block;
+}
+.main-nav {
+    float: left;
+    color: #3c58a7;
+}
+.social-icns {
+    float: right
+}
+figure {
+  width: 200px;
+}
+figure.float {
+  float: left;
+}
+figure img {
+  display: block;
+}
+section h3 {
+  line-height: 50px;
+}
+.wrap-banner {
+  width: 960px;
+  height: 380px;
+  position: relative;
+}
+.social-icns li {
+    margin-right: 23px;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  transform: rotate(0deg);
+  transition: transform .7s;
+}
+.logo:hover {
+  transform: rotate(180deg);
+}
