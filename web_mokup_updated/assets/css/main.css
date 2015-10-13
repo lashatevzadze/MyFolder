@@ -47,3 +47,7 @@ section h3 {
 .logo:hover {
   transform: rotate(180deg);
 }
+article{
+  width:230px;
+  height: 200px
+}
